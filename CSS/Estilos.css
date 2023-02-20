@@ -23,22 +23,32 @@ h1 {
     max-width: 120rem;
 
     margin: 0 auto;
+    
 }
 
-.Entrada a{
-    display: inline-block;
+.entrada h1{
+    justify-content: center;
+    text-align: center;
+
+}
+
+.entrada a{
     text-decoration: none;
     color: white;
+    padding: 1rem 2rem;
     font-weight: bold;
     text-transform: uppercase;
 }
 
 button{
-    background: linear-gradient(45deg, rgba(62,14,131,1) 0%, rgba(9,9,121,1) 8%, rgba(0,212,255,1) 100%);;
+    background: linear-gradient(45deg, rgba(62,14,131,1) 0%, rgba(9,9,121,1) 8%, rgba(0,212,255,1) 100%);
+    border-radius: 5rem;
+    border-color: transparent;
+    width: calc(100% / 2 - 2rem);
 }
 
 button:hover{
-    background: linear-gradient(-45deg, rgba(62,14,131,1) 0%, rgba(9,9,121,1) 8%, rgba(0,212,255,1) 100%);;
+    background: linear-gradient(-45deg, rgba(62,14,131,1) 0%, rgba(9,9,121,1) 8%, rgba(0,212,255,1) 100%);
 }
 
 
