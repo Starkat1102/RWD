@@ -51,5 +51,25 @@ button:hover{
     background: linear-gradient(-45deg, rgba(62,14,131,1) 0%, rgba(9,9,121,1) 8%, rgba(0,212,255,1) 100%);
 }
 
+/*  
+.dos_columnas {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.entrada {
+    flex: 0 0 calc(50%,1rem);
+}
+*/
+@media (min-width: 768px){
+    .dos_columnas {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        column-gap: 2rem;
+    }
+}
+
 
 
